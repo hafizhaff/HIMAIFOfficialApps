@@ -1,0 +1,383 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.personal.himaifofficialapps.Portofolio">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="fill_vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_below="@+id/MyAppbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="0dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Contact Us"
+                        android:textColor="#757575"
+                        android:textSize="16dp"
+                        android:layout_toRightOf="@+id/imageView"
+                        android:layout_toEndOf="@+id/imageView"
+                        android:id="@+id/textViewContactUs"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/imageViewLine"
+                        android:layout_marginLeft="20dp"
+                        android:layout_alignTop="@+id/imageViewRespect"
+                        android:layout_toRightOf="@+id/imageViewRespect"
+                        android:layout_toEndOf="@+id/imageViewRespect"
+                        android:layout_marginStart="20dp" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/imageViewInstagram"
+                        android:layout_alignTop="@+id/imageViewLine"
+                        android:layout_toRightOf="@+id/imageViewLine"
+                        android:layout_toEndOf="@+id/imageViewLine"
+                        android:layout_marginLeft="20dp" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/imageViewFacebook"
+                        android:layout_alignTop="@+id/imageViewInstagram"
+                        android:layout_toRightOf="@+id/imageViewInstagram"
+                        android:layout_toEndOf="@+id/imageViewInstagram"
+                        android:layout_marginLeft="20dp" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/imageViewTwitter"
+                        android:layout_alignTop="@+id/imageViewFacebook"
+                        android:layout_toRightOf="@+id/imageViewFacebook"
+                        android:layout_toEndOf="@+id/imageViewFacebook"
+                        android:layout_marginLeft="20dp" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/imageViewRespect"
+                        android:layout_alignTop="@+id/textViewContactUs"
+                        android:layout_alignLeft="@+id/textViewContactUs"
+                        android:layout_alignStart="@+id/textViewContactUs"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="15dp" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Our Communities"
+                        android:textColor="#757575"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/TextViewOurCommunities"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/imageViewKontent"
+                        android:layout_below="@+id/TextViewOurCommunities"
+                        android:layout_alignLeft="@+id/TextViewOurCommunities"
+                        android:layout_alignStart="@+id/TextViewOurCommunities"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/imageViewFIFA"
+                        android:layout_alignTop="@+id/imageViewKontent"
+                        android:layout_toRightOf="@+id/imageViewKontent"
+                        android:layout_toEndOf="@+id/imageViewKontent"
+                        android:layout_marginLeft="20dp" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/imageViewIFBF"
+                        android:layout_alignTop="@+id/imageViewFIFA"
+                        android:layout_toRightOf="@+id/imageViewFIFA"
+                        android:layout_toEndOf="@+id/imageViewFIFA"
+                        android:layout_marginLeft="20dp" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/imageViewpbif"
+                        android:layout_alignTop="@+id/imageViewIFBF"
+                        android:layout_toRightOf="@+id/imageViewIFBF"
+                        android:layout_toEndOf="@+id/imageViewIFBF"
+                        android:layout_marginLeft="20dp" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/imageViewMib"
+                        android:layout_above="@+id/textView6"
+                        android:layout_toRightOf="@+id/imageViewpbif"
+                        android:layout_toEndOf="@+id/imageViewpbif"
+                        android:layout_marginLeft="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Kontent"
+                        android:id="@+id/textView6"
+                        android:layout_below="@+id/imageViewKontent"
+                        android:layout_alignLeft="@+id/imageViewKontent"
+                        android:layout_alignStart="@+id/imageViewKontent"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignRight="@+id/imageViewKontent"
+                        android:layout_alignEnd="@+id/imageViewKontent"
+                        android:gravity="center_horizontal"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="FIFA"
+                        android:id="@+id/textView7"
+                        android:gravity="center_horizontal"
+                        android:layout_alignTop="@+id/textView6"
+                        android:layout_alignLeft="@+id/imageViewFIFA"
+                        android:layout_alignStart="@+id/imageViewFIFA"
+                        android:layout_alignRight="@+id/imageViewFIFA"
+                        android:layout_alignEnd="@+id/imageViewFIFA"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="IFBF"
+                        android:id="@+id/textView8"
+                        android:gravity="center_horizontal"
+                        android:layout_alignTop="@+id/textView7"
+                        android:layout_alignLeft="@+id/imageViewIFBF"
+                        android:layout_alignStart="@+id/imageViewIFBF"
+                        android:layout_alignRight="@+id/imageViewIFBF"
+                        android:layout_alignEnd="@+id/imageViewIFBF"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="PBIF"
+                        android:id="@+id/textView9"
+                        android:gravity="center_horizontal"
+                        android:layout_alignTop="@+id/textView8"
+                        android:layout_alignLeft="@+id/imageViewpbif"
+                        android:layout_alignStart="@+id/imageViewpbif"
+                        android:layout_alignRight="@+id/imageViewpbif"
+                        android:layout_alignEnd="@+id/imageViewpbif"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="MIB HIMAIF"
+                        android:id="@+id/textView10"
+                        android:gravity="center_horizontal"
+                        android:layout_below="@+id/imageViewMib"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignLeft="@+id/imageViewMib"
+                        android:layout_alignStart="@+id/imageViewMib"
+                        android:textSize="10dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Our Events"
+                        android:textColor="#757575"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/TextViewOurEvents"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/imageViewFortran"
+                        android:layout_below="@+id/TextViewOurEvents"
+                        android:layout_alignLeft="@+id/TextViewOurEvents"
+                        android:layout_alignStart="@+id/TextViewOurEvents"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/imageViewPanda"
+                        android:layout_alignTop="@+id/imageViewFortran"
+                        android:layout_toRightOf="@+id/imageViewFortran"
+                        android:layout_toEndOf="@+id/imageViewFortran"
+                        android:layout_marginLeft="20dp" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/imageViewDNIF"
+                        android:layout_alignTop="@+id/imageViewPanda"
+                        android:layout_toRightOf="@+id/imageViewPanda"
+                        android:layout_toEndOf="@+id/imageViewPanda"
+                        android:layout_marginLeft="20dp" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/imageViewExplosIF"
+                        android:layout_alignTop="@+id/imageViewDNIF"
+                        android:layout_toRightOf="@+id/imageViewDNIF"
+                        android:layout_toEndOf="@+id/imageViewDNIF"
+                        android:layout_marginLeft="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Fortran"
+                        android:id="@+id/textViewFortran"
+                        android:layout_below="@+id/imageViewFortran"
+                        android:layout_alignLeft="@+id/imageViewFortran"
+                        android:layout_alignStart="@+id/imageViewFortran"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignRight="@+id/imageViewFortran"
+                        android:layout_alignEnd="@+id/imageViewFortran"
+                        android:gravity="center_horizontal"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Panda IF"
+                        android:id="@+id/textViewPanda"
+                        android:gravity="center_horizontal"
+                        android:layout_alignTop="@+id/textViewFortran"
+                        android:layout_alignLeft="@+id/imageViewPanda"
+                        android:layout_alignStart="@+id/imageViewPanda"
+                        android:layout_alignRight="@+id/imageViewPanda"
+                        android:layout_alignEnd="@+id/imageViewPanda"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="DNIF"
+                        android:id="@+id/textViewDNIF"
+                        android:gravity="center_horizontal"
+                        android:layout_alignTop="@+id/textViewPanda"
+                        android:layout_alignLeft="@+id/imageViewDNIF"
+                        android:layout_alignStart="@+id/imageViewDNIF"
+                        android:layout_alignRight="@+id/imageViewDNIF"
+                        android:layout_alignEnd="@+id/imageViewDNIF"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="ExplosIF"
+                        android:id="@+id/textViewExplosIF"
+                        android:gravity="center_horizontal"
+                        android:layout_alignTop="@+id/textViewDNIF"
+                        android:layout_alignLeft="@+id/imageViewExplosIF"
+                        android:layout_alignStart="@+id/imageViewExplosIF"
+                        android:layout_alignRight="@+id/imageViewExplosIF"
+                        android:layout_alignEnd="@+id/imageViewExplosIF"
+                        android:textSize="10dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Himaif Information Page"
+        android:id="@+id/textViewjudul"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:textColor="#676262" />
+</FrameLayout>
